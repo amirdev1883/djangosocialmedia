@@ -18,6 +18,7 @@ LOCAL_APPS = [
     'djangosocialmedia.common.apps.CommonConfig',
     'djangosocialmedia.users.apps.UsersConfig',
     'djangosocialmedia.authentication.apps.AuthenticationConfig',
+    'djangosocialmedia.blog.apps.BlogConfig',
 ]
 
 THIRD_PARTY_APPS = [
