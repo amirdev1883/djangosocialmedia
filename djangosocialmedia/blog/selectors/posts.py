@@ -1,7 +1,7 @@
 from django.db.models import QuerySet
-from devopshobbies.blog.models import Post, Subscription
-from devopshobbies.users.models import BaseUser
-from devopshobbies.blog.filters import PostFilter
+from djangosocialmedia.blog.models import Post, Subscription
+from djangosocialmedia.users.models import BaseUser
+from djangosocialmedia.blog.filters import PostFilter
 
 
 def get_subscribers(*, user:BaseUser) -> QuerySet[Subscription]:
